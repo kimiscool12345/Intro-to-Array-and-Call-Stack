@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro to Array and Call Stack</title>
+</head>
+
+<body>
+    <h1>HELLO THIS IS THE CODE I AM DOING TODAY, HOPE YOU LIKE IT</h1>
+    <p id="demo"></p>
+
+    <script>
+        // Array
+        var dragonballsuper = [
+            "Goku",
+            "Power",
+            "Vegeta",
+            "Topo",
+            "Zeno"
+        ];
+
+        // Create an empty string
+        let output = "";
+
+        // Loop through all items in the array
+        for (let i = 0; i < dragonballsuper.length; i++) {
+            output += dragonballsuper[i] + "<br>"; // "<br>" = new line in HTML
+        }
+
+        // Show all items
+        document.getElementById("demo").innerHTML = output;
+    </script>
+</body>
+
+</html>
